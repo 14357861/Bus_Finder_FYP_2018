@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "460527362163",
+    "firebase_url": "https://zeta-buckeye-190616.firebaseio.com",
+    "project_id": "zeta-buckeye-190616",
+    "storage_bucket": "zeta-buckeye-190616.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460527362163:android:5772a0c9dcd8a698",
+        "android_client_info": {
+          "package_name": "com.example.cianfdoherty.googlemapsapidemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460527362163-e484v5q2dvm0c5or22ifh9l7rvaes35a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcqry4X4vveK6H9Ar8pVQMkaCSUObEpec"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.Driver.DriverTrackerActivity"
+    tools:showIn="@layout/app_bar_driver_tracker">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.mapwithmarker.MapsMarkerActivity" />
+    <Button
+        android:text="Enable Tracking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bLocationTrack"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:width="800dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Switch"
+        android:background="@android:color/black"
+        android:textColor="@android:color/holo_blue_bright" />
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>
